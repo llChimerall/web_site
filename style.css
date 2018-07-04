@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,800,900');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Oswald:600');
+
+.card {
+    text-align: center;
+    padding-top: 7px;
+  }
+  
+  .card__text {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  
+  .card__title {
+    font-size: 22px;
+    font-family: 'Fjalla One';
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  .card__title-main {
+     font-size: 50px;
+     font-family: 'Raleway';
+     text-transform: uppercase;
+     font-weight: 900;
+     margin-top: -10px;
+  }
+  
+  .card__title-main_color_pink {
+    color: #c58093;
+  }
+  
+  .card__background {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card__description {
+    font-size: 14px;
+    font-family: 'Montserrat';
+    line-height: 1.7;
+  }
+  
+  .card__tourinfo {
+    text-align: initial;
+    line-height: 1.5;
+  }
+  
+  .tourinfo {
+    text-align: center;
+  }
+  
+  .tourinfo__title {
+    display: inline-block;
+    margin: 1em;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 600;
+  }
+  
+  .tourinfo__description {
+    display: block; 
+    text-transform: capitalize;
+    font-weight: 800;
+    color: #c58093;
+  }
+  
+  
+  
+  
+  
+  .direction__background-main, .direction__background-secondary {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .direction__contpic {
+    float:left;
+    
+    width: 30%;
+  }
+  
+  .direction__conttext {
+    margin-left: 30%;
+    padding: 5%;
+  }
+  
+  .direction {
+    padding: 20px 50px 20px 20px;
+    border-bottom: 1px dashed #f4dcda;
+    position: relative;
+  }
+  
+  .direction:after {
+    display: block;
+    content: '';
+    clear: both;
+  }  
+  
+  .direction__city {
+    color: #46485f;
+    font-family: 'Raleway';
+    font-size: 46px;
+    margin-top: -30px;
+  }
+  
+  .direction__city_big {
+    font-size: 56px;
+  }
+  
+  .direction__price {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    top: 22px; 
+    right: -5px;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    padding: 10px;
+  }
+  
+  .direction__info {
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  
+  .direction__time, .direction__days, .direction__people {
+    display: inline-block;
+  }
+  
+  .direction__time {
+    color: #9bb44c;
+    padding: 10px 20px 10px 0px;
+    border-right: 1px solid #bfd6de;
+  }
+  
+  .direction__days {
+    color: #dca950;
+    padding: 10px 20px 10px 20px;
+  }
+  
+  .direction__people {
+    color: #c66658;
+    padding: 10px 0px 10px 20px;
+    border-left: 1px solid #bfd6de;
+  }
+  
+  .direction__description {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  
+  .direction__button {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-transform: uppercase;
+    appearance: none;
+  }
+  
+  .direction__button_book {
+    margin-top: 70px;
+    color: white;
+    padding: 1.5em;
+    border-radius: 10px;
+    background: #e56451;
+    border: 0px;
+  }
+  
+  .direction__button_view {
+    color: #e56451;
+    text-decoration: none;
+    margin: 2em 1em 1em 0em;
+    display: inline-block;
+  }
+  
+  .direction_color_blue {
+    border-right: 5px solid #5caec6;
+  }
+  
+  .direction_color_pink {
+    border-right: 5px solid #c58093;
+  }
+  
+  .direction_color_yellow {
+    border-right: 5px solid #dca852;
+  }
+  
+  .direction_color_blue .direction__price {
+    background: #5caec6;
+  }
+  
+  .direction_color_pink .direction__price {
+    background: #c58093;
+  }
+  
+  .direction_color_yellow .direction__price {
+    background: #dca852;
+  }
