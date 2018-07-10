@@ -206,3 +206,44 @@
   .direction_color_yellow .direction__price {
     background: #dca852;
   }
+
+
+  
+  .Italy {
+    background-image: url(images/bgI.jpg);
+    display: block;
+  }
+  
+  .Italy__Direction {
+    width: 50%;
+    float: right;
+    margin: 5%;
+    background: white;
+    box-shadow: 0 0 30px;
+  }
+  
+  .Italy:after {
+    display: block;
+    content: '';
+    clear: both;
+  } 
+    
+  .Italy__main {
+    text-transform: uppercase;
+    color: white;
+    margin: 7%;
+  }
+    
+  .Italy__rating {
+    font-family: 'Oswald';
+    font-size: 12px;
+  }
+  
+  .Italy__name {
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 75px;
+  }
+  .Italy__main, .Italy__rating {
+    display: inline-block;
+  }
