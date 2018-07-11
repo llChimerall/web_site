@@ -247,3 +247,35 @@
   .Italy__main, .Italy__rating {
     display: inline-block;
   }
+
+
+
+  .rating__empty {
+    background-image: url(images/rating_empty.png);
+    background-size: 22px 22px;
+    width: 110px;
+    height: 22px;
+  }
+  
+  .rating__full {
+    background-image: url(images/rating_full.png);
+    background-size: 22px 22px;
+    height: 100%;
+    text-indent: -9999px;
+    overflow: hidden;
+  }
+  .rating__full_stars_1 {
+    width: 20%;
+  }
+  .rating__full_stars_2 {
+    width: 40%;
+  }
+  .rating__full_stars_3 {
+    width: 60%;
+  }
+  .rating__full_stars_4 {
+    width: 80%;
+  }
+  .rating__full_stars_5 {
+    width: 100%;
+  }
