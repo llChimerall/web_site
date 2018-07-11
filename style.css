@@ -271,6 +271,8 @@ body {
     background-image: url(images/rating_full.png);
     background-size: 22px 22px;
     height: 100%;
+    text-indent: -9999px;
+    overflow: hidden;
     display: block;
   }
   .rating__full_stars_1 {
