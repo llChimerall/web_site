@@ -274,7 +274,6 @@ body {
     height: 100%;
     text-indent: -9999px;
     overflow: hidden;
-    display: block;
   }
   .rating__full_stars_1 {
     width: 20%;
