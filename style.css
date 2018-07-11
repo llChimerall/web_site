@@ -88,7 +88,7 @@
   
   .direction__conttext {
     margin-left: 30%;
-    padding: 5%;
+    padding: 0 5%;
   }
   
   .direction {
@@ -107,7 +107,7 @@
     color: #46485f;
     font-family: 'Raleway';
     font-size: 46px;
-    margin-top: -30px;
+    margin-top: 0;
   }
   
   .direction__city_big {
@@ -145,11 +145,13 @@
   
   .direction__days {
     color: #dca950;
+    margin: 0;
     padding: 10px 20px 10px 20px;
   }
   
   .direction__people {
     color: #c66658;
+    margin: 0;
     padding: 10px 0px 10px 20px;
     border-left: 1px solid #bfd6de;
   }
@@ -210,7 +212,7 @@
 
   
   .Italy {
-    background-image: url(images/bgI.jpg);
+    background-image: black url(images/bgI.jpg);
     display: block;
   }
   
