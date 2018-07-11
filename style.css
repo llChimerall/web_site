@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Oswald:600');
 
+body {
+  min-width: 1000px;
+}
+
 .card {
     text-align: center;
     padding-top: 7px;
@@ -212,7 +216,8 @@
 
   
   .Italy {
-    background-image: black url(images/bgI.jpg);
+    background-image: url(images/bgI.jpg);
+    background-color: black;
     display: block;
   }
   
