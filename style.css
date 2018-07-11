@@ -245,12 +245,13 @@ body {
     font-family: 'Oswald';
     font-size: 12px;
     margin: 0;
+    padding-bottom: 5px;
   }
   
   .Italy__name {
     font-family: 'Raleway';
     font-weight: 900;
-    font-size: 150px;
+    font-size: 120px;
     margin: 0;
   }
   .Italy__main, .Italy__rating {
@@ -270,8 +271,7 @@ body {
     background-image: url(images/rating_full.png);
     background-size: 22px 22px;
     height: 100%;
-    text-indent: -9999px;
-    overflow: hidden;
+    display: block;
   }
   .rating__full_stars_1 {
     width: 20%;
